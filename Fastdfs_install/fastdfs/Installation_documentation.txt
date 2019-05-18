@@ -1,0 +1,14 @@
+1、安装准备步骤
+
+解压软件包放到/root下面，完整路径/root/fastdfs
+cd /root/fastdfs
+
+使用：ip addr or ifconfig 命令查看你当前IP
+
+注释：you_ip修改为你当前主机的IP地址即可
+
+sed -i 's/default_ip/you_ip/g' /root/fastdfs/install.sh
+
+
+2、执行脚本
+./install.sh
