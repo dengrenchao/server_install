@@ -1,1 +1,1 @@
-# server_install
+# 一键安装fastdfs
